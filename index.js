@@ -27,3 +27,29 @@ else if (usuarioCreado!=usuario || contraCreado!=contraseña){
 }
 
 
+alert ("Ahora, un ejemplo de for")
+let numero1= (parseInt(prompt("Ingrese un numero")))
+let numero2= (parseInt(prompt("Ingrese otro numero")))
+
+if (numero1>numero2) {
+
+    for (let i=0;i<=5;i++) {
+        let multiplo= numero1 * numero2 *i;
+        console.log("El número es " + multiplo);
+    } 
+
+}
+else if(numero1<numero2) {
+
+    for (let i=0;i<=5;i++) {
+        let division= numero1 / numero2;
+        let resultdiv= division / i;
+        console.log("El número es " + resultdiv);
+    } 
+
+}
+   
+    
+
+
+
